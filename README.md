@@ -12,4 +12,18 @@
    
 2. Your code will be downloaded to '/home/pi' directory. Use 'ls' command to check the list of directories
 
-3. Run 'Picube Pattern1.py', 'Picube Pattern2.py', 'Picube Pattern3.py'
+3. Go to 'PiCube' directory using:
+   ```
+   cd PiCube
+   ```
+
+4. Run 'Pattern1.py', 'Pattern2.py', 'Pattern3.py' example codes using:
+
+   ```
+   sudo python Pattern1.py 
+   ```
+   or  
+   
+   ```
+   sudo python Pattern2.py 
+   ```
