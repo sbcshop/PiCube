@@ -58,12 +58,12 @@ try:
         GPIO.output(38,True)
         GPIO.output(40,True)
         for k in range(0,16):
-                print 'LED' + str(k+1) + '\tON'
+                print('LED' + str(k+1) + '\tON')
                 GPIO.output(GRID[k],True)
                 time.sleep(0.04)
 
         for l in range(0,16):
-                print 'LED'+ str(l+1) + '\tOFF'
+                print('LED'+ str(l+1) + '\tOFF')
                 GPIO.output(GRID[l],False)
                 time.sleep(0.04)
         GPIO.output(32,False)
@@ -74,36 +74,36 @@ try:
                 
 #Horizontal Pattern
         for a in range(0,4):
-                print '\nlayer number ' +str(a+1)
+                print('\nlayer number ' +str(a+1))
                 GPIO.output(LAYER[a],True)
                 
                 for i in range(0,16):
-                        print 'LED ' + str(i+1) + '\tON' 
+                        print('LED ' + str(i+1) + '\tON') 
                         GPIO.output(GRID[i],True)
                         time.sleep(0.04)
                 for j in range(0,16):
-                        print 'LED' + str(j+1) + '\tOFF'
+                        print('LED' + str(j+1) + '\tOFF')
                         GPIO.output(GRID[j], False)
                         time.sleep(0.04)
                 GPIO.output(LAYER[a],False)
-                print 'layer number ' +str(a+1) +'\tOFF'
+                print('layer number ' +str(a+1) +'\tOFF')
                 
 #Vertical Pattern
         for n in range(0,16):
-                print 'n=' + str(n) 
+                print('n=' + str(n))
                 GPIO.output(GRID[n],True)
                 time.sleep(0.04)
         
                 for m in range(0,4):
-                        print 'm=' + str(m)
+                        print('m=' + str(m))
                         GPIO.output(LAYER[m],True)
                         time.sleep(0.04)
                 for o in range(0,4):
-                        print'o=' + str(o)
+                        print('o=' + str(o))
                         GPIO.output(LAYER[o],False)
                         time.sleep(0.04)
                 GPIO.output(GRID[n],False)
-                print 'n=' +str(n) + '\tOFF'
+                print('n=' +str(n) + '\tOFF')
                 time.sleep(0.04)
     
 #Vertical Curtain  
@@ -112,12 +112,12 @@ try:
         GPIO.output(38,True)
         GPIO.output(40,True)
         for k in range(0,16):
-                print 'VERTICAL LED ' + str(i+1) + '\tON'
+                print('VERTICAL LED ' + str(i+1) + '\tON')
                 GPIO.output(VGRID[k],True)
                 time.sleep(0.04)
 
         for l in range(0,16):
-                print 'VERTICAL LED '+ str(i+1) + '\tOFF'
+                print('VERTICAL LED '+ str(i+1) + '\tOFF')
                 GPIO.output(VGRID[l],False)
                 time.sleep(0.04)
                 
