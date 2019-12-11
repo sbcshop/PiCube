@@ -149,7 +149,7 @@ try:
 		resetlayer(LAYER)
 		for i in range(0,8):
 			options[i]()
-			print 'i=' + str(i)
+			print('i=' + str(i))
 
 except KeyboardInterrupt:
     GPIO.cleanup()
