@@ -17,7 +17,7 @@
    cd PiCube
    ```
 
-4. Run 'Pattern1.py', 'Pattern2.py', 'Pattern3.py' example codes using:
+4. Run 'demo.py', 'Pattern1.py', 'Pattern2.py', 'Pattern3.py' example codes using:
 
    ```
    sudo python Pattern1.py 
