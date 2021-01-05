@@ -17,7 +17,7 @@ PiCube is a 4x4x4 LED cube HAT for Raspberry Pi with 5V DC operating voltage. Pi
   
   ``` cd PiCube ```
    
-4. Run 'demo.py', 'Pattern1.py', 'Pattern2.py', 'Pattern3.py' example codes using:
+* Run 'demo.py', 'Pattern1.py', 'Pattern2.py', 'Pattern3.py' example codes using:
  
   ``` sudo python demo.py  ```
    
