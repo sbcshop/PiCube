@@ -24,3 +24,5 @@ PiCube is a 4x4x4 LED cube HAT for Raspberry Pi with 5V DC operating voltage. Pi
    or  
    
    ``` sudo python Pattern2.py ```
+   
+<b> Buy it From : </b> https://shop.sb-components.co.uk/products/picube-4x4x4-led-cube-kit-for-raspberry-pi
