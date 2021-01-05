@@ -9,24 +9,18 @@ PiCube is a 4x4x4 LED cube HAT for Raspberry Pi with 5V DC operating voltage. Pi
 
 * Open Terminal and download the repository from our github by running command: 
 
-   ```
-   git clone https://github.com/sbcshop/PiCube.git
-   ```
-   
+   ``` git clone https://github.com/sbcshop/PiCube.git ```
+  
 * Your code will be downloaded to '/home/pi' directory. Use 'ls' command to check the list of directories.
 
 * Go to 'PiCube' directory using command:
-   ```
-   cd PiCube
-   ```
-
+  
+  ``` cd PiCube ```
+   
 4. Run 'demo.py', 'Pattern1.py', 'Pattern2.py', 'Pattern3.py' example codes using:
-
-   ```
-   sudo python demo.py 
-   ```
+ 
+  ``` sudo python demo.py  ```
+   
    or  
    
-   ```
-   sudo python Pattern2.py 
-   ```
+   ``` sudo python Pattern2.py ```
